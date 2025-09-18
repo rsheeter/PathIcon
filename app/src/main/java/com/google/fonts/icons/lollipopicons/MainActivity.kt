@@ -193,6 +193,8 @@ class MainActivity : ComponentActivity() {
         addImage(layout, path);
         addText(layout, String.format("Path %.2fms", pt / 1000_000.0))
 
+        addText(layout, "(timing drawable creation only)")
+
         setContentView(layout)
     }
 }
